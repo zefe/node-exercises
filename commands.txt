@@ -1,0 +1,56 @@
+COMMAND               FUNCION 
+
+node sample.js        Ejecutar archivo dentro de la ruta que fue creado.
+
+REPL
+console.log('helloword');   funcion objecto console().log(devuelve algo);
+UNDEFINED                   porque no regresa nada.
+
+function x(a, b) { console.log(a+b); return a + b }
+function(4,5)
+
+true && true    
+
+.exit                 Salir de la consola
+
+
+MODULOS LOCALES
+Solo se pueden utilizar dentro del proyecto
+
+MODULOS GLOBALES
+Se pueden utilizar desde cualquier proyecto o directorio
+
+ARGUMENTOS        console.log(arguments);
+Cual es el proceso y donde se ejecuto y cual es el archivo que se esta ejecutando
+
+PROCESS           console.log(process.pid)
+Es una variable global que medice el numero de mi proceso
+Contiene el proceso de mi aplicacion
+
+MODULE SCOPE
+Las cosas que yo pongo en un modulo no afecte a otro modulo 
+
+console.log(process.argv)     Me da un arreglo
+
+node main.js arg1 arg2 arg3                 
+
+NPM                          Manejador de paquetes
+Website, CLI y el registro
+
+Package.json
+  Descripcion general de proyecto
+    name
+    version
+    scripts
+
+Como crear el packag.json
+
+npm init
+
+scope / nivel empresarial que tienen sus paquetes privados
+
+Dependencias produccion
+npm install --save
+
+Dependencias de desarrollo 
+npm install --save-dev webpack 

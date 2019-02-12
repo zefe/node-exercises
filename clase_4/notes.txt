@@ -1,0 +1,40 @@
+POSIX
+Portable Perating System Interface, es una familia de estandares.
+
+I/O
+
+NodeJS  Podemos acceder a process.stdout  INTERRF SALIDA
+precess.stdin INTERFZ ENTRADA
+process.err 
+
+Streams
+Son flujos de datos que se generan de manera continua.
+
+Pequeños pedados de datos hacia el siustema 
+
+stdin:  es un strem 
+  process.stdin.setEncouding('utf-8')
+
+
+:::::::::::
+
+readline
+Es un modulo que provee una Interface para leer datos de un Readable Stream una linea a la vez 
+
+sincrono - una linea a la vez.
+Asyncrono - Se forma en una cola y se ejecuta hasta que termine. Oye ya terminaste
+            Por ejemplo cuando se realiza una llamada  una API
+            XD
+            
+
+
+Tema
+      PROCESOS
+
+Process es un objeto global que provee informacion
+
+exec
+
+Event Loop
+
+Permite ejecutar tareas que no son lineales
