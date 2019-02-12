@@ -1,2 +1,3 @@
-# node-exercises
-Exercises
+# Node Academy
+
+Exercises in Node
