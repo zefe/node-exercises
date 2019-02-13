@@ -1,0 +1,23 @@
+Direcciones IP
+Redes
+Protocolos de Red
+  -TCP
+Modelo cliente/servidor
+
+:::::::::::::::::::::::::::::
+
+
+Sintaxis HTML
+   - Tag :  <p> Parrafo </p>
+   - Atributos: <p class="editor-note"> Parrafo </p>
+
+<!DOCTYPE html>         -->   Define el tipo de documento
+<html>                  -->   Tag raiz y principal de una página
+<head>                  -->   Tag donde se definen metadatos y recursos
+	<title></title>       -->   Titulo de pa pagina
+</head>
+<body>                  -->   Aqui se muestra el contenido de la pagina
+  <p>Mira mama sin manos!</p>
+</body>
+</html>                 -->   End tag
+
