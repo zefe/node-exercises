@@ -18,6 +18,8 @@ Sintaxis HTML
 </head>
 <body>                  -->   Aqui se muestra el contenido de la pagina
   <p>Mira mama sin manos!</p>
-</body>
-</html>                 -->   End tag
+
+npm run serve
+
+
 
