@@ -1,2 +1,52 @@
 Programacion orientada a objetos	POO
 
+
+
+//Para que lo ejecute de manera asincrona y lo ejecute hasta el final agrear:
+<script>
+	asyn defer 
+</script>
+
+
+
+
+Una app donde puedan hacer preguntas sobre medicina alternativa y tenga informacion de prevencion de enfermedades cronicas
+
+
+
+
+
+usuarios
+preguntas
+respuestas
+
+
+PROYECTO
+
+nombre 
+descripcion
+a quien va dirijido
+
+tareas
+
+:::::::::::::::::::::::::::::::::::::::::::::
+
+upload-videos.js
+
+function sendVideo() {
+	return fetch('URL', {
+	method: 'post',
+	body: JSON.stringify(video)
+	})
+}
+
+function onSubmit(event) {
+	event.preventDefault()
+	const elementVideoName = document.getElementById('video-name')
+}
+
+
+window.addEventListener('load', function() {
+	const form  = document.getElementById('video-form')
+	form.addEventListener('submit', onSubmit)
+})
