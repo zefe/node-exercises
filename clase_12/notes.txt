@@ -1,0 +1,21 @@
+
+Asincronia
+	Sincrono y asincrono
+
+	Sincrono se ejecuta linea por linea
+	Asincrono son tareas que no se ejecutan de manera inmediata -> peticiones a API´s
+	Asincronia : Callbacks - es una funcion a que se ejecuta hasta que esta termina
+				 Promesas - una promesa es un objeto que puede tener funciones, propiedades
+				 			.then si la promesa se cumplio se ejetuta este codigo( que podria ser una funcion callback)
+
+
+
+
+
+console.log(1)
+setTimeout(()=>console.log(2),0)
+console.log(3)
+
+crear clase video a esa calase pasarle el id, la imgen, titulo. Tendra un metodo rendertoHTML  en lugar de createVideo y devuelve el nodo de articl o el nodo que voamos a crear
+
+nueva pagina para crear videos campos id, ur, titulo

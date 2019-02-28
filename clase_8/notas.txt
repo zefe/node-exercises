@@ -1,0 +1,34 @@
+DOM con JS
+
+Document Object Model
+Nodos jerarquicos
+Todos los elementos del DOM son objetos
+
+JS != Plataforma
+
+Cuando queramos interactuar con un documento hacemos uso de el API Document, la cual esta disponible usando la variable document
+
+document.getElementById('tu_id')		//Regresa un elemento
+
+querySelector
+Otra forma de acceder a elementos del dom mas especificos con querySelector querySelectorAll reresa un arreglo
+
+MODIFICACION DE ATRIBUTOS
+
+CRETE ELEMENT - agregar elementos al dom
+
+Modificacion del Arbol de elementos
+
+Recomeded:::
+
+appendChild
+insertBefore
+replaceChild
+removeChild
+
+
+EVENTOS EN EL DOM
+
+Para esto usamos el metodo addEventListener del elemento y para removerlo podemos usar la funcion 
+removeEventListener. Ambas reciben como parametro el nombre del evento y la funcion que se ejecutara
+

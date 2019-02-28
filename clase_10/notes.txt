@@ -1,0 +1,27 @@
+CONTEXTOS
+
+1 COERCIÓN DE DATOS
+Conversion de un valor a otro:  parseInt(string)
+
+
+2 CLOSURES
+Entender Garbage Collector, el scope de JS y funciones como tipo de dato
+
+El scope de JS funciona a nivel global, funcion y bloque.
+Las funciones tambien son un tipo de dato
+
+Lexical Scope
+
+scope se define al momento de crear una funcion
+
+const a = 1
+
+function x () {
+	const b = 2							b no tiene acceso a c
+	return function bar() {
+		const c = 3			
+	}
+}
+
+
+3 CONTEXTOS
